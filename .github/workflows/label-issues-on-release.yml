@@ -46,7 +46,7 @@ jobs:
         with:
           script: |
             const issues = ${{ steps.get-issues.outputs.result }};
-            const label = 'ready-for-testing';
+            const label = 'ready for testing';
             
             for (const issueNumber of issues) {
               try {
