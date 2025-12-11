@@ -6,6 +6,10 @@ on:
     branches:
       - 'release/**'
 
+permissions:
+  issues: write
+  pull-requests: read
+
 jobs:
   label-issues:
     if: github.event.pull_request.merged == true
