@@ -6,6 +6,10 @@ on:
     branches:
       - develop
 
+permissions:
+  issues: write
+  pull-requests: read
+
 jobs:
   close-issues:
     if: |
