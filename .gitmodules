@@ -1,0 +1,3 @@
+[submodule "My-Submodule"]
+	path = My-Submodule
+	url = https://github.com/irvall/My-Submodule
